@@ -1,0 +1,3436 @@
+@font-face {
+    font-family: "YekanBakh_Heavy";
+    src: url('fonts/Yekan_Bakh_Heavy.ttf') format('woff');
+}
+
+@font-face {
+    font-family: "YekanBakh_Bold";
+    src: url('fonts/Yekan_Bakh_Fat.ttf') format('woff');
+}
+
+@font-face {
+    font-family: "YekanBakh_Medium";
+    src: url('fonts/YekanBakh-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: "YekanBakh_Regural";
+    src: url('fonts/Yekan_Bakh_Regular.ttf') format('woff');
+}
+
+@font-face {
+    font-family: "YekanBakh_Light";
+    src: url('fonts/YekanBakh-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: "Lalezar_Regular";
+    src: url('fonts/Lalezar-Regular.otf') format('woff');
+}
+
+@font-face {
+    font-family: "IRAN_Sans_Bold";
+    src: url('fonts/IRAN_Sans_Bold.ttf') format('woff');
+}
+
+@font-face {
+    font-family: "Yekan_Bakh_Fat";
+    src: url('fonts/Yekan_Bakh_Fat.ttf') format('woff');
+}
+
+
+/* CSS RESET */
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+/* change colours to suit your needs */
+
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+
+/* change colours to suit your needs */
+
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* change border colour to suit your needs */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input,
+select {
+    vertical-align: middle;
+}
+
+body {
+    background: #d7d7d7!important;
+    font-family: 'YekanBakh_Regural'!important;
+    direction: rtl;
+}
+
+a {
+    text-decoration: none!important;
+    transition: .2s ease-out;
+    -webkit-transition: .2s ease-out;
+    -moz-transition: .2s ease-out;
+    -o-transition: .2s ease-out;
+}
+
+li {
+    list-style: none;
+}
+
+ :focus {
+    outline: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.p0 {
+    padding: 0!important;
+}
+
+
+/* Home */
+
+.Main {
+    background-color: #1f1f1f;
+}
+
+.Top_Logo {
+    margin-top: -5px;
+    background-color: #1e1e1e;
+}
+
+.BG_All img {
+    height: 100%;
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+    display: block;
+    object-fit: contain;
+}
+
+.Anime_Top IMG {
+    width: 42%;
+    height: auto;
+    position: absolute;
+    z-index: 11111111;
+    top: 29%;
+    left: 29%;
+    right: 29%;
+}
+
+.dis_none img {
+    display: none;
+}
+
+.Go_slogan {
+    position: absolute;
+    top: 85%;
+    left: 5%;
+}
+
+.Go_slogan img {
+    width: 50%;
+    height: auto;
+}
+
+.Slogan {
+    position: relative;
+}
+
+.Slogan_img img {
+    width: 100%;
+    height: auto;
+}
+
+.op {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 74%;
+    background-color: rgb(73, 73, 73);
+}
+
+.Slogan_Info {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: #e0e0e0;
+    font-family: 'Lalezar_Regular';
+}
+
+.Slogan_Inner {
+    margin: 0 auto!important;
+}
+
+.Slogan_Inner header {
+    text-align: right;
+    margin-top: 85px;
+}
+
+.Slogan_Inner header h1 {
+    font-size: 50px;
+}
+
+.Slogan_Inner header span {
+    font-family: 'YekanBakh_Regural';
+    font-size: 35px;
+}
+
+.Slogan_Des {
+    float: left;
+    text-align: justify;
+    font-size: 25px;
+    font-family: 'YekanBakh_Regural';
+    color: #e0e0e0;
+}
+
+.Our_Team {
+    width: 100%;
+    height: auto;
+    background-color: #d7d7d7;
+    color: #484848;
+}
+
+.Team_Ma {
+    font-family: 'Lalezar_Regular';
+}
+
+.Team_Ma header {
+    text-align: left;
+    margin-top: 85px;
+    display: inline-block;
+}
+
+.Team_Ma header h1 {
+    font-size: 50px;
+}
+
+.Team_Ma header span {
+    font-family: 'YekanBakh_Regural';
+    font-size: 35px;
+}
+
+.Our_Team_img img {
+    width: 100%;
+    height: auto;
+}
+
+.Our_Team_S_img img {
+    width: 15%;
+    height: auto;
+    position: relative;
+    left: 57%;
+}
+
+.Our_Team_S_img p {
+    position: absolute;
+    width: 10%;
+    left: 61%;
+    margin-top: -125px;
+    font-weight: bolder;
+    font-family: 'Yekan_Bakh_Fat';
+}
+
+.Process {
+    width: 100%;
+    height: 700px;
+    margin-top: -50px;
+    background-color: #f04203;
+    color: #e0e0e0;
+}
+
+.Process_Inner {
+    margin: 0 auto!important;
+}
+
+.Process_Inner header {
+    text-align: right;
+    padding-top: 200px;
+}
+
+.Process_Inner header h1 {
+    font-family: 'Lalezar_Regular';
+    font-size: 50px;
+}
+
+.Process_Inner header span {
+    font-family: 'YekanBakh_Regural';
+    font-size: 35px;
+}
+
+.empty_r {
+    height: 1px;
+    float: right;
+}
+
+.Process_Des {
+    float: right;
+    text-align: justify;
+    font-size: 25px;
+    font-family: 'YekanBakh_Regural';
+}
+
+.question_img {
+    float: left;
+}
+
+.question_img img {
+    width: 60px;
+    height: 90px;
+    margin-top: 110px;
+}
+
+.anime {
+    display: none;
+}
+
+.anime img {
+    width: 100%;
+    height: 400px;
+}
+
+.partners {
+    background-color: #d7d7d7;
+    width: 100%;
+    height: 750px;
+}
+
+.partners_Inner {
+    margin: 0 auto!important;
+}
+
+.partners_Inner header {
+    text-align: left;
+    padding-top: 200px;
+}
+
+.partners_Inner header h1 {
+    font-family: 'Lalezar_Regular';
+    font-size: 50px;
+    color: #484848;
+}
+
+.partners_Inner header span {
+    font-family: 'YekanBakh_Regural';
+    font-size: 35px;
+}
+
+.parner_li ul li {
+    float: left;
+    height: 150px;
+}
+
+.partner_pic img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+.statistics {
+    background-color: #d7d7d7;
+    width: 100%;
+    height: auto;
+    display: grid;
+    padding-bottom: 50px;
+}
+
+.statistics header {
+    margin-bottom: 20px;
+}
+
+.statistics header h1 {
+    text-align: right;
+    font-family: 'Lalezar_Regular';
+    font-size: 50px;
+    color: #484848;
+}
+
+.statistics header span {
+    text-align: right;
+    color: #484848;
+    font-family: 'YekanBakh_Regural';
+    font-size: 35px;
+    display: block;
+}
+
+.static_img li {
+    float: left;
+}
+
+.static_img img {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 50px auto;
+}
+
+.static_img li p {
+    font-family: 'Lalezar_Regular';
+    width: 100%;
+    padding-top: 59px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.static_img li span {
+    position: absolute;
+    top: -45%;
+    left: 49%;
+    right: 44%;
+    font-size: 40px;
+    font-family: 'YekanBakh_Bold';
+    color: #484848;
+}
+
+.mid img {
+    width: 85%;
+    height: auto;
+    right: 25%;
+}
+
+.About_Us {
+    background-color: #1f1f1f;
+    width: 100%;
+    height: auto;
+    color: #e0e0e0;
+    ;
+}
+
+.Send_BAbout_Us_innerTN a {
+    border: 1px solid #e0e0e0;
+    ;
+    padding: 15px 50px;
+    margin: 35px 50px;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #e0e0e0;
+}
+
+.About_Us_inner a:hover {
+    color: #e0e0e0;
+}
+
+.About_Us_inner {
+    margin: 0 auto!important;
+}
+
+.About_Us_inner header {
+    text-align: left;
+    padding-top: 80px;
+}
+
+.About_Us_inner header h1 {
+    font-family: 'Lalezar_Regular';
+    font-size: 55px;
+    color: #e0e0e0;
+}
+
+.About_Us_inner header span {
+    font-family: 'YekanBakh_Regural';
+    font-size: 35px;
+}
+
+.Adress,
+.Phone {
+    float: right;
+    text-align: right;
+    font-family: 'YekanBakh_Regural';
+}
+
+.Adress,
+.Insta {
+    margin-top: 10px;
+}
+
+.Adress p,
+.Phone p {
+    font-size: 25px;
+    margin-top: 5px;
+    font-family: 'YekanBakh_Regural';
+}
+
+.Adress img,
+.Phone img {
+    float: right;
+    width: 25px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.Phone img {
+    float: right;
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+}
+
+.Insta {
+    float: left;
+}
+
+.Insta p {
+    font-size: 25px;
+    font-family: calibri;
+}
+
+.Insta img {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+
+.Copy_Right {
+    text-align: center;
+    font-family: 'YekanBakh_Medium';
+    margin: 5px auto;
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+}
+
+.Map_img img {
+    width: 100%;
+    height: auto;
+}
+
+#gate {
+    cursor: pointer;
+    width: 60px;
+    margin-top: -25px;
+    height: 90px;
+    opacity: 0.2;
+    margin-left: 92px;
+}
+
+#ball {
+    cursor: pointer;
+    width: 60px;
+    height: 90px;
+}
+
+.floating {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-top: 5px;
+}
+
+@keyframes floating {
+    from {
+        transform: translate(0, 0px);
+    }
+    65% {
+        transform: translate(0, 15px);
+    }
+    to {
+        transform: translate(0, -0px);
+    }
+}
+
+
+/* Gallery Page */
+
+.header {
+    background: #bbb;
+    height: auto;
+    font-family: 'YekanBakh_Heavy';
+    padding-top: 15px;
+    display: inline-block;
+}
+
+.main_gallery {
+    height: auto;
+}
+
+.footer {
+    background: rgb(72, 72, 72);
+    height: 500px;
+    padding: 220px 0;
+}
+
+.footer_khadamat {
+    background: rgb(72, 72, 72);
+    height: auto;
+    padding: 80px 0 20px 0;
+}
+
+.h {
+    width: 8px;
+    height: 8px;
+    background-color: #f24404;
+    margin: 6px 0;
+    border-radius: 50%;
+}
+
+.fr {
+    float: right;
+}
+
+.fl {
+    float: left;
+}
+
+.Menu_Top {
+    height: 50px;
+}
+
+.logo_top img {
+    height: 60px;
+    width: 60px;
+}
+
+.title_karston h1 {
+    float: right;
+    border-bottom: 1px solid #494949;
+    margin: 200px 0 80px 0;
+    font-size: 100px;
+    font-family: 'YekanBakh_Heavy';
+    color: #494949;
+}
+
+.title_Blog h1 {
+    float: right;
+    margin: 150px 0 80px 0;
+    font-size: 40px;
+    font-family: 'Yekan_Bakh_Fat';
+    color: #494949;
+    text-align: right;
+}
+
+.img_blog img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.img_blog p {
+    float: right;
+    font-size: 35px;
+    margin: 80px 80px 80px 130px;
+    font-family: 'YekanBakh_Regural';
+    color: #494949;
+    direction: rtl;
+    text-align: justify;
+}
+
+.img_li img {
+    height: auto;
+    width: 100%;
+    border-radius: 35px;
+}
+
+.gallery_ul {
+    margin: 0 auto;
+}
+
+.gallery_ul li {
+    margin-top: 75px;
+    display: inline-block;
+}
+
+.gallery_ul li:last-child {
+    margin-bottom: 75px;
+}
+
+.gallery_ul li:nth-child(even) h1 {
+    font-family: 'YekanBakh_Heavy';
+    color: #494949;
+    float: left;
+}
+
+.gallery_ul li:nth-child(even) .info_text {
+    direction: rtl;
+    text-align: left;
+    text-align-last: left;
+    font-family: 'YekanBakh_Regural';
+    font-size: 25px;
+    max-height: 71px;
+    overflow: hidden;
+}
+
+.gallery_ul li:nth-child(even) .more_info {
+    float: left;
+    height: 40px;
+}
+
+.gallery_ul li:nth-child(odd) h1 {
+    font-family: 'YekanBakh_Heavy';
+    color: #494949;
+    float: right;
+}
+
+.gallery_ul li:nth-child(odd) .info_text {
+    direction: rtl;
+    text-align: right;
+    text-align-last: right;
+    font-family: 'YekanBakh_Regural';
+    font-size: 25px;
+    max-height: 71px;
+    overflow: hidden;
+}
+
+.gallery_ul li:nth-child(odd) .more_info {
+    float: right;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.info_li {
+    padding: 60px 15px;
+}
+
+.more_info img {
+    float: right;
+    height: 60px;
+    width: 60px;
+}
+
+.more_info span {
+    line-height: 2.5;
+    color: #f24404;
+    font-family: 'YekanBakh_Medium';
+    margin: 0 10px;
+    font-size: 25px;
+}
+
+
+/* . li::after {
+    content: '';
+    display: block;
+    clear: both;
+} */
+
+.footer {
+    margin-top: 75px;
+}
+
+.footer_txt {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'YekanBakh_Heavy';
+}
+
+.footer_txt_khadamat {
+    color: #e3e1e1;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'YekanBakh_Medium';
+}
+
+
+/* Tamas Ba Ma */
+
+.tamas_Info {
+    float: right;
+}
+
+.tamas_img {
+    float: left;
+}
+
+.tamas_img img {
+    height: auto;
+    width: 100%;
+    margin: 15px;
+}
+
+.tamas_Info h1 {
+    text-align: right;
+    font-family: 'YekanBakh_Light';
+    margin: 75px 15px;
+    display: block;
+}
+
+.tamas_info_des p {
+    text-align: right;
+    font-family: 'YekanBakh_Light';
+    font-size: 25px;
+}
+
+.tamas_more_info {
+    float: left;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.tamas_more_info img {
+    float: right;
+    height: 60px;
+    width: 60px;
+}
+
+.tamas_more_info span {
+    line-height: 2.5;
+    color: #f24404;
+    font-family: 'YekanBakh_Regural';
+    margin: 0 10px;
+    font-size: 25px;
+    float: right;
+}
+
+#navbar-1 {
+    z-index: 99999999;
+    position: absolute;
+    top: 0;
+    height: 48px;
+    background: transparent;
+}
+
+#navbar-2 {
+    z-index: 99999999;
+    position: absolute;
+    top: 0;
+    height: 48px;
+    background: transparent !important;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 1);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.open-click {
+    font-size: 40px;
+    cursor: pointer;
+    color: white!important;
+    margin: 15px 40px;
+    float: right;
+}
+
+.open-click-2 {
+    font-size: 40px;
+    cursor: pointer;
+    color: #f24404!important;
+    margin: 15px 40px;
+    float: right;
+}
+
+.open-click-3 {
+    font-size: 40px;
+    cursor: pointer;
+    color: #49494a!important;
+    margin: 15px 40px;
+    float: right;
+}
+
+.closebutton {
+    position: absolute;
+    right: 45px;
+    font-size: 60px;
+    font-weight: bold;
+    color: #484848!important;
+}
+
+.overlay-content {
+    color: white;
+    cursor: pointer;
+}
+
+.overlay-ul {
+    margin-top: 200px;
+}
+
+.overlay ul {
+    width: 100%;
+    direction: rtl;
+    text-align: right;
+    list-style: none;
+}
+
+.overlay ul li {
+    padding: 5px;
+    display: block;
+    text-align: center;
+}
+
+.overlay ul li a {
+    color: #484848!important;
+    font-family: 'YekanBakh_Light';
+    font-size: 25px;
+}
+
+.overlay-menu {
+    display: none;
+    padding-right: 20%;
+}
+
+.overlay-list {
+    display: none;
+    padding-right: 30%;
+}
+
+#overlay-content5 {
+    padding-top: 0;
+}
+
+.over_gallery {
+    background: #555555 !important;
+}
+
+#Logo_img_3 {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+
+/* Team Main */
+
+.Main_Team {
+    background-color: #d7d7d7;
+}
+
+.bg_absolote {
+    width: 100%;
+    height: 400px;
+    background-color: #989898;
+    color: #484848;
+    z-index: 0;
+}
+
+.Team_Main {
+    padding-top: 75px;
+    margin: -420px auto 0 auto;
+    background-color: transparent!important;
+}
+
+.Team_Main .Our_Team_S_img {
+    position: relative;
+    z-index: 5;
+}
+
+.Team_Main .Our_Team_img {
+    position: relative;
+    z-index: 5;
+}
+
+.Team_Main .Our_Team_S_img img {
+    width: 15%;
+    height: auto;
+    position: relative;
+    left: 68%;
+}
+
+.Team_Main .Our_Team_S_img p {
+    position: absolute;
+    width: 10%;
+    left: 70%;
+    margin-top: -106px;
+    font-weight: bolder;
+    font-family: 'Yekan_Bakh_Fat';
+}
+
+.Team_2 .Our_Team_S_img img {
+    width: 15%;
+    height: auto;
+    position: relative;
+    left: 48%;
+}
+
+.Team_2 .Our_Team_S_img p {
+    position: absolute;
+    width: 10%;
+    left: 51%;
+    margin-top: -106px;
+    font-weight: bolder;
+    font-family: 'Yekan_Bakh_Fat';
+}
+
+.Team_main_ul {
+    display: inline-block;
+    height: auto;
+    margin: 50px 0 150px 0;
+}
+
+.Team_main_ul li {
+    float: right;
+    text-align: right;
+}
+
+.Team_main_ul li h1 {
+    font-family: 'YekanBakh_Medium';
+    color: #49494b;
+    font-size: 50px;
+    margin: 0 0 25px 0;
+}
+
+.Team_main_ul li span {
+    font-family: 'YekanBakh_Heavy';
+    color: #f24405;
+    display: block;
+    font-size: 16px;
+}
+
+.Team_main_ul li span:last-child {
+    font-family: 'YekanBakh_Medium';
+    color: #f24405;
+    font-size: 14px;
+}
+
+
+/* Page_More_Info */
+
+.Display_inLine {
+    display: inline-block;
+}
+
+.gallery_ul_Info {
+    margin: 0 auto;
+}
+
+.gallery_ul_Info li {
+    display: block;
+    float: right;
+    margin: 50px auto 0 auto;
+}
+
+.img_li_info {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+}
+
+.info_li_info {
+    position: absolute!important;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.info_li_info {
+    background: rgb(73, 73, 73, 0.5);
+    border-radius: 50px;
+    font-family: 'IRAN_Sans_Bold';
+    text-align: right;
+    color: #fff;
+}
+
+.info_li_info .info_text_1 {
+    margin: 15px 15px 15px 0;
+}
+
+.info_li_info .info_text_2 {
+    margin: 0 15px 10px 0;
+}
+
+.img_li_info img {
+    height: auto;
+    width: 100%;
+    border-radius: 35px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+}
+
+.header_bg_2 {
+    background: #49494a;
+}
+
+.head_title h1 {
+    float: right;
+    margin: 80px 15px 20px 0;
+    font-size: 35px;
+    font-family: 'YekanBakh_Heavy';
+    color: #e3e1e1!important;
+}
+
+.m_t_200 {
+    margin-top: 200px;
+}
+
+
+/* Gallery Moshtarian */
+
+.header_bg_3 {
+    background: #fff;
+}
+
+.header_bg_trans {
+    background: transparent;
+}
+
+.header_bg_body {
+    background: #49494a!important;
+}
+
+.header_bg_body_ff {
+    background: #fff!important;
+}
+
+.color_49494a {
+    color: #49494a!important;
+}
+
+.gallery_img {
+    float: left;
+}
+
+.gallery_img img {
+    width: 90%;
+    height: auto;
+    float: left;
+    margin: 30px 0;
+    border-radius: 15px;
+}
+
+.gallery_box {
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #000;
+    border-radius: 35px;
+    display: flow-root;
+}
+
+.head_color_black {
+    text-align: right;
+    margin: 80px auto 25px auto;
+}
+
+.gallery_txt {
+    padding: 15px;
+}
+
+.head_color_black h1 {
+    color: #49494a!important;
+    font-size: 45px;
+    font-family: 'IRAN_Sans_Bold'!important;
+    text-align: right;
+    margin: 30px auto 15px auto;
+}
+
+.gallery_txt p {
+    font-family: 'IRAN_Sans_Bold'!important;
+    text-align: right;
+    color: #49494a!important;
+    line-height: 1;
+}
+
+.gallery_txt p:last-child {
+    margin-bottom: 15px;
+}
+
+
+/* Blog  */
+
+.bg_fc {
+    background: #fcfcfc;
+}
+
+.bg_e1 {
+    background: #e1e1e1!important;
+}
+
+.nav_menu {
+    margin: 25px auto;
+    display: block;
+}
+
+.nav_menu ul {
+    margin: 0 auto;
+    display: block;
+}
+
+.nav_menu li {
+    float: left;
+    background: transparent;
+    border: 1px solid #ececec;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0;
+    cursor: pointer;
+}
+
+.nav_menu li img {
+    width: 90px;
+    height: auto;
+    margin: 15px auto;
+    display: block;
+}
+
+.nav_menu li span {
+    margin-bottom: 20px;
+    display: block;
+}
+
+
+/* Swiper */
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.slider_img_d img {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide-active .info_slider_top {
+    display: block;
+}
+
+#container_bar_1,
+#container_bar_2,
+#container_bar_3 {
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#container_bar_2 img {
+    position: absolute;
+    top: -120px;
+    left: -180px;
+    display: none;
+}
+
+#container_bar_2 span {
+    font-family: 'YekanBakh_Regural';
+    font-size: 25px;
+    position: absolute;
+    top: -120px;
+    left: -165px;
+    display: none;
+}
+
+.progressbar-text {
+    font-family: 'YekanBakh_Bold';
+    color: #484848!important;
+}
+
+
+/*------------ media_screen ---------------*/
+
+@media only screen and (max-width: 250px) {}
+
+@media only screen and (max-width: 300px) and (min-width: 250px) {}
+
+@media only screen and (max-width: 350px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 400px) and (min-width: 350px) {}
+
+@media only screen and (max-width: 450px) and (min-width: 400px) {}
+
+@media only screen and (max-width: 500px) and (min-width: 450px) {}
+
+@media only screen and (max-width: 550px) and (min-width: 500px) {}
+
+@media only screen and (max-width: 600px) and (min-width: 550px) {}
+
+@media only screen and (max-width: 650px) and (min-width: 600px) {}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media (min-width: 600px) {
+    .closebutton {
+        position: absolute;
+        right: 20px;
+        font-size: 45px;
+        font-weight: bold;
+        color: #484848!important;
+    }
+    .open-click {
+        font-size: 40px;
+        cursor: pointer;
+        color: white!important;
+        margin: 15px 15px;
+        float: right;
+    }
+    .Go_slogan {
+        position: absolute;
+        top: 90%;
+        left: 5%;
+    }
+    .Go_slogan img {
+        width: 30%;
+        height: auto;
+    }
+    .Slogan_Inner header {
+        text-align: right;
+        margin-top: 20px;
+    }
+    .Slogan_Inner header h1 {
+        font-size: 30px;
+    }
+    .Slogan_Des p {
+        font-size: 16px;
+        font-family: "YekanBakh_Regural";
+    }
+    .Team_Ma header {
+        text-align: left;
+        margin-top: 50px;
+        display: inline-block;
+    }
+    .statistics {
+        background-color: #d7d7d7;
+        width: 100%;
+        height: auto;
+        display: grid;
+        padding-bottom: 50px;
+    }
+    .statistics header {
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .static_img img {
+        width: 25%;
+        height: auto;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 50px auto;
+    }
+    .static_img li span {
+        position: absolute;
+        top: -41%;
+        left: 46%;
+        right: 44%;
+        font-size: 40px;
+        font-family: 'YekanBakh_Bold';
+        color: #484848;
+    }
+    .mid {
+        margin-top: 160px;
+    }
+    .mid img {
+        width: 45%;
+        height: auto;
+        right: 17%;
+    }
+    .end {
+        margin-top: 70px;
+    }
+    .Team_Ma header h1 {
+        font-size: 40px;
+    }
+    .Our_Team_S_img img {
+        width: 30%;
+        height: auto;
+        position: relative;
+        left: 57%;
+    }
+    .Our_Team_S_img p {
+        position: absolute;
+        width: 19%;
+        left: 65%;
+        margin-top: -117px;
+        font-weight: bolder;
+        font-family: 'Yekan_Bakh_Fat';
+    }
+    .Our_Team {
+        width: 100%;
+        height: auto;
+        background-color: #d7d7d7;
+        color: #484848;
+    }
+    .Process_Inner header {
+        text-align: right;
+        padding-top: 100px;
+    }
+    .Process_Inner header h1 {
+        font-family: 'Lalezar_Regular';
+        font-size: 30px;
+    }
+    .Process_Des p {
+        font-family: 'YekanBakh_Regural';
+        font-size: 16px;
+    }
+    .Process {
+        width: 100%;
+        height: 500px;
+        margin-top: -50px;
+        background-color: #f04203;
+        color: #e0e0e0;
+    }
+    .partners_Inner header h1 {
+        font-family: 'Lalezar_Regular';
+        font-size: 30px;
+        color: #484848;
+    }
+    .statistics header h1 {
+        text-align: right;
+        font-family: 'Lalezar_Regular';
+        font-size: 30px;
+        color: #484848;
+    }
+    .partners_Inner header {
+        text-align: left;
+        padding-top: 100px;
+    }
+    .About_Us_inner a {
+        border: 1px solid #ffffff;
+        padding: 10px 35px;
+        margin: 20px 0;
+        display: inline-block;
+        border-radius: 10px;
+        font-size: 20px;
+        color: #fff;
+    }
+    .About_Us_inner header {
+        text-align: left;
+        padding-top: 50px;
+    }
+    .About_Us_inner header h1 {
+        font-family: 'Lalezar_Regular';
+        font-size: 25px;
+        color: #e0e0e0;
+    }
+    .Insta {
+        margin-top: 0;
+    }
+    .more_info span {
+        line-height: 2.5;
+        color: #f24404;
+        font-family: 'YekanBakh_Medium';
+        margin: 0 10px;
+        font-size: 20px;
+    }
+    .tamas_Info h1 {
+        text-align: right;
+        font-family: 'YekanBakh_Light';
+        margin: 40px 15px;
+        display: block;
+    }
+    .tamas_info_des p {
+        text-align: right;
+        font-family: 'YekanBakh_Light';
+        font-size: 21px;
+    }
+    .tamas_img img {
+        height: auto;
+        width: 100%;
+        margin: 15px auto;
+    }
+    .gallery_ul li:nth-child(odd) .info_text {
+        direction: rtl;
+        text-align: right;
+        text-align-last: right;
+        font-family: 'YekanBakh_Regural';
+        font-size: 25px;
+        max-height: fit-content;
+        overflow: visible;
+    }
+    .gallery_ul li:nth-child(even) .info_text {
+        direction: rtl;
+        text-align: right;
+        text-align-last: right;
+        font-family: 'YekanBakh_Regural';
+        font-size: 25px;
+        max-height: fit-content;
+        overflow: visible;
+    }
+    .gallery_ul li:nth-child(even) .more_info {
+        float: right;
+        height: 40px;
+    }
+    .gallery_ul li:nth-child(even) h1 {
+        font-family: 'YekanBakh_Heavy';
+        color: #494949;
+        float: right;
+    }
+    .title_karston h1 {
+        float: right;
+        border-bottom: 1px solid #494949;
+        margin: 200px 0 80px 0;
+        font-size: 100px;
+        font-family: 'YekanBakh_Heavy';
+        color: #494949;
+    }
+    .static_img li p {
+        font-family: 'Lalezar_Regular';
+        width: 100%;
+        padding-top: 59px;
+        text-align: center;
+        font-size: 14px;
+    }
+    .question_img img {
+        width: 60px;
+        height: 90px;
+        margin-top: 15px;
+    }
+    .anime {
+        margin-top: -300px;
+    }
+    #gate {
+        margin-left: 3px;
+        margin-top: -40px;
+    }
+    .anime img {
+        width: 100%;
+        height: 450px;
+    }
+    .q_place {
+        display: inline-block;
+    }
+    .Adress p,
+    .Phone p {
+        font-size: 16px;
+        margin-top: 5px;
+        font-family: 'YekanBakh_Regural';
+    }
+    .Insta p {
+        font-size: 20px;
+        font-family: calibri;
+    }
+    .Team_Main .Our_Team_S_img img {
+        width: 30%;
+        height: auto;
+        position: relative;
+        left: 68%;
+    }
+    .Team_Main .Our_Team_S_img p {
+        position: absolute;
+        width: 18%;
+        left: 73%;
+        margin-top: -88px;
+        font-weight: bolder;
+        font-family: 'Yekan_Bakh_Fat';
+    }
+    .Team_2 .Our_Team_S_img img {
+        width: 30%;
+        height: auto;
+        position: relative;
+        left: 48%;
+    }
+    .Team_2 .Our_Team_S_img p {
+        position: absolute;
+        width: 18%;
+        left: 53%;
+        margin-top: -88px;
+        font-weight: bolder;
+        font-family: 'Yekan_Bakh_Fat';
+    }
+    .Team_main_ul li h1 {
+        font-family: 'YekanBakh_Medium';
+        color: #49494b;
+        font-size: 30px;
+        margin: 40px 0 15px 0;
+    }
+    .bg_absolote {
+        width: 100%;
+        height: 280px;
+        background-color: #989898;
+        color: #484848;
+        z-index: 0;
+    }
+    .Team_Main {
+        padding-top: 75px;
+        margin: -310px auto 0 auto;
+        background-color: transparent!important;
+    }
+    .Team_main_ul {
+        display: inline-block;
+        height: auto;
+        margin: 30px 0 90px 0;
+    }
+    .info_li_info {
+        font-size: 13px;
+    }
+    .info_li_info .info_text_1 {
+        margin: 15px 10px 15px 0;
+    }
+    .info_li_info .info_text_2 {
+        margin: 0 10px 10px 0;
+    }
+    .gallery_img img {
+        width: 100%;
+        height: auto;
+        float: left;
+        margin: 30px 0;
+        border-radius: 15px;
+    }
+    .m_t_200 {
+        margin-top: 50px;
+    }
+    .nav_menu li img {
+        width: 30px;
+        height: auto;
+        margin: 15px auto;
+        display: block;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 600px;
+    }
+    .info_slider_top {
+        display: none;
+        width: 100%;
+        height: 145px;
+        position: absolute;
+        top: 0;
+        right: -150px;
+    }
+    .info_slider_top img {
+        width: 100%;
+        height: 145px;
+        display: block;
+    }
+    .info_slider_top span {
+        position: absolute;
+        top: 55px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+    }
+    .slider_img_d {
+        width: 100%;
+        height: 450;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    .img_blog p {
+        float: right;
+        font-size: 35px;
+        margin: 80px 80px 80px 130px;
+        font-family: 'YekanBakh_Regural';
+        color: #494949;
+        direction: rtl;
+        text-align: justify;
+    }
+    #container_bar_2 img {
+        position: absolute;
+        top: -75px;
+        left: -130px;
+        display: none;
+    }
+    #container_bar_2 span {
+        font-family: 'YekanBakh_Regural';
+        font-size: 25px;
+        position: absolute;
+        top: -85px;
+        left: -125px;
+        display: none;
+    }
+}
+
+@media (max-width: 535px) {
+    .swiper-container {
+        width: 100%;
+        height: 450px;
+    }
+    .info_slider_top {
+        display: none;
+        width: 150%;
+        height: 145px;
+        position: absolute;
+        top: 0;
+        right: -120px;
+    }
+    .info_slider_top img {
+        width: 100%;
+        height: 145px;
+        display: block;
+    }
+    .info_slider_top span {
+        position: absolute;
+        top: 55px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+    }
+    .slider_img_d {
+        width: 100%;
+        height: 300px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    .closebutton {
+        position: absolute;
+        right: 20px;
+        font-size: 45px;
+        font-weight: bold;
+        color: #484848!important;
+    }
+    .open-click {
+        font-size: 30px;
+        cursor: pointer;
+        color: white!important;
+        margin: 15px 15px;
+        float: right;
+    }
+    .open-click-2 {
+        font-size: 40px;
+        cursor: pointer;
+        color: #f24404!important;
+        margin: 15px 15px;
+        float: right;
+    }
+    .Go_slogan {
+        position: absolute;
+        top: 90%;
+        left: 5%;
+    }
+    .Go_slogan img {
+        width: 25%;
+        height: auto;
+    }
+    .Slogan_Inner header {
+        text-align: right;
+        margin-top: -5px;
+    }
+    .Slogan_Inner header h1 {
+        font-size: 25px;
+    }
+    .Slogan_Des p {
+        font-size: 10px;
+        font-family: "YekanBakh_Regural";
+    }
+    .Team_Ma header {
+        text-align: left;
+        margin-top: 50px;
+        display: inline-block;
+    }
+    .statistics {
+        background-color: #d7d7d7;
+        width: 100%;
+        height: auto;
+        display: grid;
+        padding-bottom: 50px;
+    }
+    .statistics header {
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .static_img img {
+        width: 25%;
+        height: auto;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 50px auto;
+    }
+    .static_img li span {
+        position: absolute;
+        top: -12%;
+        left: 50%;
+        right: 44%;
+        font-size: 25px;
+        font-family: 'YekanBakh_Bold';
+        color: #484848;
+    }
+    .static_img li p {
+        font-family: 'Lalezar_Regular';
+        width: 100%;
+        padding-top: 59px;
+        text-align: center;
+        font-size: 12px;
+    }
+    .mid {
+        margin-top: 115px;
+    }
+    .mid img {
+        width: 45%;
+        height: auto;
+        right: 17%;
+    }
+    .end {
+        margin-top: 40px;
+    }
+    .Team_Ma header h1 {
+        font-size: 30px;
+    }
+    .Our_Team_S_img img {
+        width: 40%;
+        height: auto;
+        position: relative;
+        left: 57%;
+    }
+    .Our_Team_S_img p {
+        position: absolute;
+        width: 30%;
+        left: 65%;
+        margin-top: -85px;
+        font-weight: bolder;
+        font-family: 'Yekan_Bakh_Fat';
+        font-size: 12px;
+    }
+    .Our_Team {
+        width: 100%;
+        height: auto;
+        background-color: #d7d7d7;
+        color: #484848;
+    }
+    .Process_Inner header {
+        text-align: right;
+        padding-top: 80px;
+    }
+    .Process_Inner header h1 {
+        font-family: 'Lalezar_Regular';
+        font-size: 30px;
+    }
+    .Process_Des p {
+        font-family: 'YekanBakh_Regural';
+        font-size: 10px;
+    }
+    .Process {
+        width: 100%;
+        height: 550px;
+        margin-top: -50px;
+        background-color: #f04203;
+        color: #e0e0e0;
+    }
+    .partners_Inner header h1 {
+        font-family: 'Lalezar_Regular';
+        font-size: 30px;
+        color: #484848;
+    }
+    .statistics header h1 {
+        text-align: right;
+        font-family: 'Lalezar_Regular';
+        font-size: 30px;
+        color: #484848;
+    }
+    .partners_Inner header {
+        text-align: left;
+        padding-top: 100px;
+    }
+    .About_Us_inner a {
+        border: 1px solid #ffffff;
+        padding: 10px 35px;
+        margin: 20px 0;
+        display: inline-block;
+        border-radius: 10px;
+        font-size: 20px;
+        color: #fff;
+    }
+    .About_Us_inner header {
+        text-align: left;
+        padding-top: 50px;
+    }
+    .About_Us_inner header h1 {
+        font-family: 'Lalezar_Regular';
+        font-size: 25px;
+        color: #e0e0e0;
+    }
+    .Insta {
+        margin-top: 0;
+    }
+    .gallery_ul li:nth-child(even) h1 {
+        font-family: 'YekanBakh_Heavy';
+        color: #494949;
+        float: right;
+        text-align: right;
+    }
+    .gallery_ul li:nth-child(odd) h1 {
+        font-family: 'YekanBakh_Heavy';
+        color: #494949;
+        float: right;
+        text-align: right;
+    }
+    .gallery_ul li:nth-child(odd) .info_text {
+        direction: rtl;
+        text-align: right;
+        text-align-last: right;
+        font-family: 'YekanBakh_Regural';
+        font-size: 25px;
+        max-height: fit-content;
+        overflow: visible;
+    }
+    .gallery_ul li:nth-child(even) .info_text {
+        direction: rtl;
+        text-align: right;
+        text-align-last: right;
+        font-family: 'YekanBakh_Regural';
+        font-size: 25px;
+        max-height: fit-content;
+        overflow: visible;
+    }
+    .gallery_ul li:nth-child(even) .more_info {
+        float: right;
+        height: 40px;
+    }
+    .more_info span {
+        line-height: 2.5;
+        color: #f24404;
+        font-family: 'YekanBakh_Medium';
+        margin: 0 10px;
+        font-size: 20px;
+    }
+    .tamas_Info h1 {
+        text-align: right;
+        font-family: 'YekanBakh_Light';
+        margin: 40px 15px;
+        display: block;
+    }
+    .tamas_info_des p {
+        text-align: right;
+        font-family: 'YekanBakh_Light';
+        font-size: 18px;
+    }
+    .tamas_img img {
+        height: auto;
+        width: 100%;
+        margin: 15px auto;
+    }
+    .title_karston h1 {
+        float: right;
+        border-bottom: 1px solid #494949;
+        margin: 200px 0 80px 0;
+        font-size: 70px;
+        font-family: 'YekanBakh_Heavy';
+        color: #494949;
+    }
+    .question_img img {
+        width: 60px;
+        height: 90px;
+        margin-top: 120px;
+    }
+    .anime {
+        margin-top: -300px;
+    }
+    #gate {
+        margin-left: 5px;
+        margin-top: -10px;
+    }
+    .anime img {
+        width: 100%;
+        height: 250px;
+    }
+    .q_place {
+        display: none;
+    }
+    .Adress p,
+    .Phone p {
+        font-size: 12px;
+        margin-top: 5px;
+        font-family: 'YekanBakh_Regural';
+    }
+    .Insta p {
+        font-size: 18px;
+        font-family: calibri;
+    }
+    .Team_Main .Our_Team_S_img img {
+        width: 39%;
+        height: auto;
+        position: relative;
+        left: 68%;
+    }
+    .Team_Main .Our_Team_S_img p {
+        position: absolute;
+        width: 31%;
+        left: 74%;
+        margin-top: -70px;
+        font-weight: bolder;
+        font-family: 'Yekan_Bakh_Fat';
+    }
+    .Team_2 .Our_Team_S_img img {
+        width: 39%;
+        height: auto;
+        position: relative;
+        left: 48%;
+    }
+    .Team_2 .Our_Team_S_img p {
+        position: absolute;
+        width: 31%;
+        left: 56%;
+        margin-top: -70px;
+        font-weight: bolder;
+        font-family: 'Yekan_Bakh_Fat';
+    }
+    .Team_main_ul li h1 {
+        font-family: 'YekanBakh_Medium';
+        color: #49494b;
+        font-size: 35px;
+        margin: 40px 0 5px 0;
+    }
+    .bg_absolote {
+        width: 100%;
+        height: 250px;
+        background-color: #989898;
+        color: #484848;
+        z-index: 0;
+    }
+    .Team_Main {
+        padding-top: 75px;
+        margin: -240px auto 0 auto;
+        background-color: transparent!important;
+    }
+    .Team_main_ul {
+        display: inline-block;
+        height: auto;
+        margin: 30px 0 70px 0;
+    }
+    .info_li_info {
+        font-size: 12px;
+    }
+    .info_li_info .info_text_1 {
+        margin: 15px 5px 15px 0;
+    }
+    .info_li_info .info_text_2 {
+        margin: 0 5px 10px 0;
+    }
+    .gallery_img img {
+        width: 100%;
+        height: auto;
+        float: left;
+        margin: 30px 0;
+        border-radius: 15px;
+    }
+    .m_t_200 {
+        margin-top: 50px;
+    }
+    .nav_menu li img {
+        width: 45px;
+        height: auto;
+        margin: 15px auto;
+        display: block;
+    }
+    .img_blog p {
+        float: right;
+        font-size: 35px;
+        margin: 80px 40px;
+        font-family: 'YekanBakh_Regural';
+        color: #494949;
+        direction: rtl;
+        text-align: right;
+    }
+    #container_bar_2 img {
+        position: absolute;
+        top: -80px;
+        left: -120px;
+        display: none;
+    }
+    #container_bar_2 span {
+        font-family: 'YekanBakh_Regural';
+        font-size: 15px;
+        position: absolute;
+        top: -75px;
+        left: -40px;
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {}
+
+
+/* sm */
+
+@media (min-width: 768px) {
+    .closebutton {
+        position: absolute;
+        right: 22px;
+        font-size: 45px;
+        font-weight: bold;
+        color: #484848!important;
+    }
+    .open-click {
+        font-size: 40px;
+        cursor: pointer;
+        color: white!important;
+        margin: 15px 15px;
+        float: right;
+    }
+    .Go_slogan {
+        position: absolute;
+        top: 90%;
+        left: 5%;
+    }
+    .Go_slogan img {
+        width: 35%;
+        height: auto;
+    }
+    .Slogan_Inner header {
+        text-align: right;
+        margin-top: 30px;
+    }
+    .Slogan_Inner header h1 {
+        font-size: 40px;
+    }
+    .Slogan_Des p {
+        margin: 10px 0 0 10px;
+        font-size: 18px;
+        font-family: "YekanBakh_Regural";
+    }
+    .Team_Ma header {
+        text-align: left;
+        margin-top: 40px;
+        display: inline-block;
+    }
+    .statistics {
+        background-color: #d7d7d7;
+        width: 100%;
+        height: auto;
+        display: grid;
+        padding-bottom: 50px;
+    }
+    .statistics header {
+        margin-bottom: 150px;
+        margin-top: 60px;
+    }
+    .static_img img {
+        width: 50%;
+        height: auto;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 50px auto;
+    }
+    .static_img li span {
+        position: absolute;
+        top: -18%;
+        left: 42%;
+        right: 40%;
+        font-size: 30px;
+        font-family: 'YekanBakh_Bold';
+        color: #484848;
+    }
+    .mid {
+        margin-top: 0;
+    }
+    .mid img {
+        width: 80%;
+        height: auto;
+        right: 17%;
+    }
+    .end {
+        margin-top: 0;
+    }
+    .Team_Ma header h1 {
+        font-size: 50px;
+    }
+    .Our_Team_S_img img {
+        width: 25%;
+        height: auto;
+        position: relative;
+        left: 57%;
+    }
+    .Our_Team_S_img p {
+        position: absolute;
+        width: 19%;
+        left: 61%;
+        margin-top: -120px;
+        font-weight: bolder;
+        font-family: 'Yekan_Bakh_Fat';
+    }
+    .Our_Team {
+        width: 100%;
+        height: auto;
+        background-color: #d7d7d7;
+        color: #484848;
+    }
+    .Process_Inner header {
+        text-align: right;
+        padding-top: 120px;
+    }
+    .Process_Inner header h1 {
+        font-family: 'Lalezar_Regular';
+        font-size: 30px;
+    }
+    .Process_Des p {
+        font-family: 'YekanBakh_Regural';
+        font-size: 18px;
+    }
+    .Process {
+        width: 100%;
+        height: 520px;
+        margin-top: -50px;
+        background-color: #f04203;
+        color: #e0e0e0;
+    }
+    .partners_Inner header h1 {
+        font-family: 'Lalezar_Regular';
+        font-size: 40px;
+        color: #484848;
+    }
+    .statistics header h1 {
+        text-align: right;
+        font-family: 'Lalezar_Regular';
+        font-size: 40px;
+        color: #484848;
+    }
+    .partners_Inner header {
+        text-align: left;
+        padding-top: 120px;
+    }
+    .About_Us_inner a {
+        border: 1px solid #ffffff;
+        padding: 10px 35px;
+        margin: 20px 0;
+        display: inline-block;
+        border-radius: 10px;
+        font-size: 20px;
+        color: #fff;
+    }
+    .About_Us_inner header {
+        text-align: left;
+        padding-top: 50px;
+    }
+    .About_Us_inner header h1 {
+        font-family: 'Lalezar_Regular';
+        font-size: 55px;
+        color: #e0e0e0;
+    }
+    .Insta {
+        margin-top: 0;
+    }
+    .info_li {
+        padding: 40px 15px;
+    }
+    .gallery_ul li:nth-child(odd) .info_text {
+        direction: rtl;
+        text-align: right;
+        text-align-last: right;
+        font-family: 'YekanBakh_Regural';
+        font-size: 25px;
+        max-height: 100px;
+        overflow: hidden;
+    }
+    .gallery_ul li:nth-child(even) .info_text {
+        direction: rtl;
+        text-align: left;
+        text-align-last: left;
+        font-family: 'YekanBakh_Regural';
+        font-size: 25px;
+        max-height: 100px;
+        overflow: hidden;
+    }
+    .gallery_ul li:nth-child(even) .more_info {
+        float: left;
+        height: 40px;
+    }
+    .gallery_ul li:nth-child(even) h1 {
+        font-family: 'YekanBakh_Heavy';
+        color: #494949;
+        float: left;
+    }
+    .more_info span {
+        line-height: 2.5;
+        color: #f24404;
+        font-family: 'YekanBakh_Medium';
+        margin: 0 10px;
+        font-size: 20px;
+    }
+    .tamas_Info h1 {
+        text-align: right;
+        font-family: 'YekanBakh_Light';
+        margin: 75px 15px;
+        display: block;
+    }
+    .tamas_Info h1 {
+        text-align: right;
+        font-family: 'YekanBakh_Light';
+        margin: 40px 15px;
+        display: block;
+    }
+    .tamas_info_des p {
+        text-align: right;
+        font-family: 'YekanBakh_Light';
+        font-size: 25px;
+    }
+    .tamas_img img {
+        height: auto;
+        width: 100%;
+        margin: 15px auto;
+    }
+    .title_karston h1 {
+        float: right;
+        border-bottom: 1px solid #494949;
+        margin: 200px 0 80px 0;
+        font-size: 100px;
+        font-family: 'YekanBakh_Heavy';
+        color: #494949;
+    }
+    .static_img li p {
+        font-family: 'Lalezar_Regular';
+        width: 100%;
+        padding-top: 59px;
+        text-align: center;
+        font-size: 14px;
+    }
+    .question_img img {
+        width: 60px;
+        height: 90px;
+        margin-top: 15px;
+    }
+    .anime {
+        margin-top: -300px;
+    }
+    #gate {
+        margin-left: 60px;
+        margin-top: -40px;
+    }
+    .q_place {
+        display: inline-block;
+    }
+    .anime img {
+        width: 100%;
+        height: 425px;
+    }
+    .Adress p,
+    .Phone p {
+        font-size: 20px;
+        margin-top: 5px;
+        font-family: 'YekanBakh_Regural';
+    }
+    .Insta p {
+        font-size: 20px;
+        font-family: calibri;
+    }
+    .Team_Main .Our_Team_S_img img {
+        width: 22%;
+        height: auto;
+        position: relative;
+        left: 68%;
+    }
+    .Team_Main .Our_Team_S_img p {
+        position: absolute;
+        width: 18%;
+        left: 72%;
+        margin-top: -95px;
+        font-weight: bolder;
+        font-family: 'Yekan_Bakh_Fat';
+    }
+    .Team_2 .Our_Team_S_img img {
+        width: 22%;
+        height: auto;
+        position: relative;
+        left: 48%;
+    }
+    .Team_2 .Our_Team_S_img p {
+        position: absolute;
+        width: 18%;
+        left: 52%;
+        margin-top: -95px;
+        font-weight: bolder;
+        font-family: 'Yekan_Bakh_Fat';
+    }
+    .Team_main_ul li h1 {
+        font-family: 'YekanBakh_Medium';
+        color: #49494b;
+        font-size: 30px;
+        margin: 0 0 15px 0;
+    }
+    .bg_absolote {
+        width: 100%;
+        height: 320px;
+        background-color: #989898;
+        color: #484848;
+        z-index: 0;
+    }
+    .Team_Main {
+        padding-top: 75px;
+        margin: -350px auto 0 auto;
+        background-color: transparent!important;
+    }
+    .Team_main_ul {
+        display: inline-block;
+        height: auto;
+        margin: 50px 0 100px 0;
+    }
+    .info_li_info {
+        font-size: 13px;
+    }
+    .info_li_info .info_text_1 {
+        margin: 15px 10px 15px 0;
+    }
+    .info_li_info .info_text_2 {
+        margin: 0 10px 10px 0;
+    }
+    .gallery_img img {
+        width: 100%;
+        height: auto;
+        float: left;
+        margin: 30px 0;
+        border-radius: 15px;
+    }
+    .m_t_200 {
+        margin-top: 50px;
+    }
+    .nav_menu li img {
+        width: 85px;
+        height: auto;
+        margin: 15px auto;
+        display: block;
+    }
+    .fr_h1 h1 {
+        float: right!important;
+    }
+    .txt_a_r {
+        text-align: right!important;
+        text-align-last: right!important;
+    }
+    #container_bar_2 img {
+        position: absolute;
+        top: -120px;
+        left: -180px;
+        display: none;
+    }
+    #container_bar_2 span {
+        font-family: 'YekanBakh_Regural';
+        font-size: 25px;
+        position: absolute;
+        top: -120px;
+        left: -165px;
+        display: none;
+    }
+}
+
+@media (max-width: 765px) {}
+
+
+/* md */
+
+@media (min-width: 992px) {
+    .tamas_img img {
+        height: -webkit-fill-available;
+        width: 100%;
+        margin: 0px auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: block;
+    }
+    .closebutton {
+        position: absolute;
+        right: 22px;
+        font-size: 50px;
+        font-weight: bold;
+        color: #484848!important;
+    }
+    .open-click {
+        font-size: 40px;
+        cursor: pointer;
+        color: white!important;
+        margin: 15px 15px;
+        float: right;
+    }
+    .Go_slogan {
+        position: absolute;
+        top: 90%;
+        left: 5%;
+    }
+    .Go_slogan img {
+        width: 40%;
+        height: auto;
+    }
+    .Slogan_Inner header {
+        text-align: right;
+        margin-top: 40px;
+    }
+    .Slogan_Inner header h1 {
+        font-size: 50px;
+    }
+    .Slogan_Des p {
+        font-size: 19px;
+        font-family: "YekanBakh_Regural";
+    }
+    .Team_Ma header {
+        text-align: left;
+        margin-top: 40px;
+        display: inline-block;
+    }
+    .statistics {
+        background-color: #d7d7d7;
+        width: 100%;
+        height: auto;
+        display: grid;
+        padding-bottom: 50px;
+    }
+    .statistics header {
+        margin-bottom: 150px;
+        margin-top: 20px;
+    }
+    .static_img img {
+        width: 50%;
+        height: auto;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 50px auto;
+    }
+    .static_img li span {
+        position: absolute;
+        top: -33%;
+        left: 44%;
+        right: 41%;
+        font-size: 35px;
+        font-family: 'YekanBakh_Bold';
+        color: #484848;
+    }
+    .mid {
+        margin-top: 0;
+    }
+    .mid img {
+        width: 80%;
+        height: auto;
+        right: 17%;
+    }
+    .end {
+        margin-top: 0;
+    }
+    .Team_Ma header h1 {
+        font-size: 55px;
+    }
+    .Our_Team_S_img img {
+        width: 20%;
+        height: auto;
+        position: relative;
+        left: 57%;
+    }
+    .Our_Team_S_img p {
+        position: absolute;
+        width: 13%;
+        left: 61%;
+        margin-top: -126px;
+        font-weight: bolder;
+        font-family: 'Yekan_Bakh_Fat';
+    }
+    .Our_Team {
+        width: 100%;
+        height: auto;
+        background-color: #d7d7d7;
+        color: #484848;
+    }
+    .Process_Inner header {
+        text-align: right;
+        padding-top: 140px;
+    }
+    .Process_Inner header h1 {
+        font-family: 'Lalezar_Regular';
+        font-size: 50px;
+    }
+    .Process_Des p {
+        font-family: 'YekanBakh_Regural';
+        font-size: 19px;
+    }
+    .Process {
+        width: 100%;
+        height: 620px;
+        margin-top: -70px;
+        background-color: #f04203;
+        color: #e0e0e0;
+    }
+    .partners_Inner header h1 {
+        font-family: 'Lalezar_Regular';
+        font-size: 50px;
+        color: #484848;
+    }
+    .statistics header h1 {
+        text-align: right;
+        font-family: 'Lalezar_Regular';
+        font-size: 50px;
+        color: #484848;
+    }
+    .partners_Inner header {
+        text-align: left;
+        padding-top: 120px;
+    }
+    .About_Us_inner a {
+        border: 1px solid #ffffff;
+        padding: 10px 35px;
+        margin: 20px 0;
+        display: inline-block;
+        border-radius: 10px;
+        font-size: 20px;
+        color: #fff;
+    }
+    .About_Us_inner header {
+        text-align: left;
+        padding-top: 50px;
+    }
+    .About_Us_inner header h1 {
+        font-family: 'Lalezar_Regular';
+        font-size: 55px;
+        color: #e0e0e0;
+    }
+    .Insta {
+        margin-top: 0;
+    }
+    .gallery_ul li:nth-child(odd) .info_text {
+        direction: rtl;
+        text-align: right;
+        text-align-last: right;
+        font-family: 'YekanBakh_Regural';
+        font-size: 26px;
+        max-height: 73px;
+        overflow: hidden;
+    }
+    .gallery_ul li:nth-child(even) .info_text {
+        direction: rtl;
+        text-align: left;
+        text-align-last: left;
+        font-family: 'YekanBakh_Regural';
+        font-size: 26px;
+        max-height: 73px;
+        overflow: hidden;
+    }
+    .gallery_ul li:nth-child(even) h1 {
+        font-family: 'YekanBakh_Heavy';
+        color: #494949;
+        float: left;
+    }
+    .fr_h1 h1 {
+        float: right!important;
+    }
+    .txt_a_r {
+        text-align: right!important;
+    }
+    .gallery_ul li:nth-child(even) .more_info {
+        float: left;
+        height: 40px;
+    }
+    .title_karston h1 {
+        float: right;
+        border-bottom: 1px solid #494949;
+        margin: 200px 0 80px 0;
+        font-size: 100px;
+        font-family: 'YekanBakh_Heavy';
+        color: #494949;
+    }
+    .static_img li p {
+        font-family: 'Lalezar_Regular';
+        width: 100%;
+        padding-top: 59px;
+        text-align: center;
+        font-size: 16px;
+    }
+    .question_img img {
+        width: 60px;
+        height: 90px;
+        margin-top: 80px;
+    }
+    .anime {
+        margin-top: -250px;
+    }
+    #gate {
+        margin-left: 77px;
+        margin-top: -10px;
+    }
+    .q_place {
+        display: inline-block;
+    }
+    .anime img {
+        width: 100%;
+        height: 475px;
+    }
+    .Adress p,
+    .Phone p {
+        font-size: 25px;
+        margin-top: 5px;
+        font-family: 'YekanBakh_Regural';
+    }
+    .Insta p {
+        font-size: 25px;
+        font-family: calibri;
+    }
+    .Team_Main .Our_Team_S_img img {
+        width: 20%;
+        height: auto;
+        position: relative;
+        left: 68%;
+    }
+    .Team_Main .Our_Team_S_img p {
+        position: absolute;
+        width: 13%;
+        left: 71%;
+        margin-top: -86px;
+        font-weight: bolder;
+        font-family: 'Yekan_Bakh_Fat';
+    }
+    .Team_2 .Our_Team_S_img img {
+        width: 20%;
+        height: auto;
+        position: relative;
+        left: 48%;
+    }
+    .Team_2 .Our_Team_S_img p {
+        position: absolute;
+        width: 13%;
+        left: 51%;
+        margin-top: -86px;
+        font-weight: bolder;
+        font-family: 'Yekan_Bakh_Fat';
+    }
+    .Team_main_ul li h1 {
+        font-family: 'YekanBakh_Medium';
+        color: #49494b;
+        font-size: 40px;
+        margin: 0 0 25px 0;
+    }
+    .bg_absolote {
+        width: 100%;
+        height: 425px;
+        background-color: #989898;
+        color: #484848;
+        z-index: 0;
+    }
+    .Team_Main {
+        padding-top: 75px;
+        margin: -37% auto 0 auto;
+        background-color: transparent!important;
+    }
+    .Team_main_ul {
+        display: inline-block;
+        height: auto;
+        margin: 50px 0 100px 0;
+    }
+    .info_li_info {
+        font-size: 16px;
+    }
+    .info_li_info .info_text_1 {
+        margin: 15px 15px 15px 0;
+    }
+    .info_li_info .info_text_2 {
+        margin: 0 15px 10px 0;
+    }
+    .head_color_black h1 {
+        color: #49494a!important;
+        font-size: 35px;
+        font-family: 'IRAN_Sans_Bold'!important;
+        text-align: right;
+        margin: 30px auto 10px auto;
+    }
+    .gallery_txt p {
+        font-family: 'IRAN_Sans_Bold'!important;
+        text-align: right;
+        color: #49494a!important;
+        line-height: 1.5;
+    }
+    .m_t_200 {
+        margin-top: 200px;
+    }
+    .nav_menu li img {
+        width: 60px;
+        height: auto;
+        margin: 15px auto;
+        display: block;
+    }
+    #container_bar_2 img {
+        position: absolute;
+        top: -120px;
+        left: -180px;
+        display: none;
+    }
+    #container_bar_2 span {
+        font-family: 'YekanBakh_Regural';
+        font-size: 25px;
+        position: absolute;
+        top: -120px;
+        left: -165px;
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {}
+
+
+/* lg */
+
+@media (min-width: 1200px) {
+    .closebutton {
+        position: absolute;
+        right: 22px;
+        font-size: 55px;
+        font-weight: bold;
+        color: #484848!important;
+    }
+    .open-click {
+        font-size: 50px;
+        cursor: pointer;
+        color: white!important;
+        margin: 15px 15px;
+        float: right;
+    }
+    .Go_slogan {
+        position: absolute;
+        top: 90%;
+        left: 5%;
+    }
+    .Go_slogan img {
+        width: 40%;
+        height: auto;
+    }
+    .Slogan_Inner header {
+        text-align: right;
+        margin-top: 40px;
+    }
+    .Slogan_Inner header h1 {
+        font-size: 50px;
+    }
+    .Slogan_Des p {
+        margin: 20px 0 0 75px;
+        font-size: 23px;
+        font-family: "YekanBakh_Regural";
+    }
+    .Team_Ma header {
+        text-align: left;
+        margin-top: 50px;
+        display: inline-block;
+    }
+    .statistics {
+        background-color: #d7d7d7;
+        width: 100%;
+        height: auto;
+        display: grid;
+        padding-bottom: 50px;
+    }
+    .statistics header {
+        margin-bottom: 150px;
+        margin-top: 100px;
+    }
+    .static_img img {
+        width: 50%;
+        height: auto;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 50px auto;
+    }
+    .static_img li span {
+        position: absolute;
+        top: -41%;
+        left: 44%;
+        right: 41%;
+        font-size: 40px;
+        font-family: 'YekanBakh_Bold';
+        color: #484848;
+    }
+    .mid {
+        margin-top: 0;
+    }
+    .mid img {
+        width: 80%;
+        height: auto;
+        right: 17%;
+    }
+    .end {
+        margin-top: 0;
+    }
+    .Team_Ma header h1 {
+        font-size: 55px;
+    }
+    .Our_Team_S_img img {
+        width: 15%;
+        height: auto;
+        position: relative;
+        left: 57%;
+    }
+    .Our_Team_S_img p {
+        position: absolute;
+        width: 11%;
+        left: 60%;
+        margin-top: -113px;
+        font-weight: bolder;
+        font-family: 'Yekan_Bakh_Fat';
+    }
+    .Our_Team {
+        width: 100%;
+        height: auto;
+        background-color: #d7d7d7;
+        color: #484848;
+    }
+    .Process_Inner header {
+        text-align: right;
+        padding-top: 180px;
+        color: #e0e0e0;
+    }
+    .Process_Inner header h1 {
+        font-family: 'Lalezar_Regular';
+        font-size: 50px;
+    }
+    .Process_Des p {
+        font-family: 'YekanBakh_Regural';
+        font-size: 23px;
+        color: #e0e0e0;
+    }
+    .Process {
+        width: 100%;
+        height: 700px;
+        margin-top: -80px;
+        background-color: #f04203;
+        color: #e0e0e0;
+    }
+    .partners_Inner header h1 {
+        font-family: 'Lalezar_Regular';
+        font-size: 50px;
+        color: #484848;
+    }
+    .statistics header h1 {
+        text-align: right;
+        font-family: 'Lalezar_Regular';
+        font-size: 50px;
+        color: #484848;
+    }
+    .partners_Inner header {
+        text-align: left;
+        padding-top: 100px;
+    }
+    .About_Us_inner a {
+        border: 1px solid #d2d2d2;
+        padding: 10px 35px;
+        margin: 20px 0;
+        display: inline-block;
+        border-radius: 10px;
+        font-size: 20px;
+        color: #fff;
+    }
+    .About_Us_inner header {
+        text-align: left;
+        padding-top: 100px;
+    }
+    .About_Us_inner header h1 {
+        font-family: 'Lalezar_Regular';
+        font-size: 55px;
+        color: #e0e0e0;
+    }
+    .Insta {
+        margin-top: 0;
+    }
+    .title_karston h1 {
+        float: right;
+        border-bottom: 1px solid #494949;
+        margin: 200px 0 80px 0;
+        font-size: 100px;
+        font-family: 'YekanBakh_Heavy';
+        color: #494949;
+    }
+    .static_img li p {
+        font-family: 'Lalezar_Regular';
+        width: 100%;
+        padding-top: 59px;
+        text-align: center;
+        font-size: 20px;
+        color: #484848;
+    }
+    .question_img img {
+        width: 60px;
+        height: 90px;
+        margin-top: 110px;
+    }
+    .anime {
+        margin-top: -200px;
+    }
+    #gate {
+        margin-left: 92px;
+        margin-top: -90px;
+    }
+    .q_place {
+        display: inline-block;
+    }
+    .anime img {
+        width: 100%;
+        height: 500px;
+    }
+    .Adress p,
+    .Phone p {
+        font-size: 25px;
+        margin-top: 5px;
+        font-family: 'YekanBakh_Regural';
+    }
+    .Insta p {
+        font-size: 25px;
+        font-family: calibri;
+    }
+    .Team_Main .Our_Team_S_img img {
+        width: 15%;
+        height: auto;
+        position: relative;
+        left: 68%;
+    }
+    .Team_Main .Our_Team_S_img p {
+        position: absolute;
+        width: 10%;
+        left: 70%;
+        margin-top: -87px;
+        font-weight: bolder;
+        font-family: 'Yekan_Bakh_Fat';
+    }
+    .Team_2 .Our_Team_S_img img {
+        width: 15%;
+        height: auto;
+        position: relative;
+        left: 48%;
+    }
+    .Team_2 .Our_Team_S_img p {
+        position: absolute;
+        width: 10%;
+        left: 51%;
+        margin-top: -87px;
+        font-weight: bolder;
+        font-family: 'Yekan_Bakh_Fat';
+    }
+    .Team_main_ul li h1 {
+        font-family: 'YekanBakh_Medium';
+        color: #49494b;
+        font-size: 50px;
+        margin: 0 0 25px 0;
+    }
+    .bg_absolote {
+        width: 100%;
+        height: 475px;
+        background-color: #989898;
+        color: #484848;
+        z-index: 0;
+    }
+    .Team_Main {
+        padding-top: 75px;
+        margin: -33% auto 0 auto;
+        background-color: transparent!important;
+    }
+    .Team_main_ul {
+        display: inline-block;
+        height: auto;
+        margin: 50px 0 150px 0;
+    }
+    .info_li_info {
+        font-size: 16px;
+    }
+    .info_li_info .info_text_1 {
+        margin: 15px 15px 15px 0;
+    }
+    .info_li_info .info_text_2 {
+        margin: 0 15px 10px 0;
+    }
+    .m_t_200 {
+        margin-top: 200px;
+    }
+    .nav_menu li img {
+        width: 90px;
+        height: auto;
+        margin: 15px auto;
+        display: block;
+    }
+    #container_bar_2 img {
+        position: absolute;
+        top: -120px;
+        left: -180px;
+        display: none;
+    }
+    #container_bar_2 span {
+        font-family: 'YekanBakh_Regural';
+        font-size: 25px;
+        position: absolute;
+        top: -120px;
+        left: -165px;
+        display: none;
+    }
+}
+
+@media (min-width: 1320px) {
+    .swiper-container {
+        width: 100%;
+        height: 800px;
+    }
+    .info_slider_top {
+        display: none;
+        width: 100%;
+        height: 145px;
+        position: absolute;
+        top: 0;
+        right: -150px;
+    }
+    .info_slider_top img {
+        width: 100%;
+        height: 145px;
+        display: block;
+    }
+    .info_slider_top span {
+        position: absolute;
+        top: 55px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+    }
+    .slider_img_d {
+        width: 100%;
+        height: 650px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    #container_bar_2 img {
+        position: absolute;
+        top: -120px;
+        left: -180px;
+        display: none;
+    }
+    #container_bar_2 span {
+        font-family: 'YekanBakh_Regural';
+        font-size: 25px;
+        position: absolute;
+        top: -120px;
+        left: -165px;
+        display: none;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 350px) {
+    .static_img li span {
+        position: absolute;
+        top: -3%;
+        left: 50%;
+        right: 44%;
+        font-size: 22px;
+        font-family: 'YekanBakh_Bold';
+        color: #484848;
+    }
+    .Slogan_Inner header span,
+    .Slogan_Inner header h1,
+    .Slogan_Inner header,
+    .Team_Ma header span,
+    .Team_Ma header h1,
+    .Process_Inner header span,
+    .Process_Inner header h1,
+    .partners_Inner header span,
+    .partners_Inner header h1,
+    .statistics header span,
+    .statistics header h1,
+    .About_Us_inner header span,
+    .About_Us_inner header h1 {
+        font-size: 18px;
+    }
+    .Our_Team_S_img p {
+        position: absolute;
+        width: 30%;
+        left: 64%;
+        margin-top: -67px;
+        font-weight: bolder;
+        font-family: 'Yekan_Bakh_Fat';
+        font-size: 10px;
+    }
+    .Copy_Right {
+        font-size: 15px;
+    }
+    .Slogan_Inner header {
+        margin-top: 10px;
+    }
+    .title_karston h1 {
+        font-size: 60px;
+    }
+    .Team_Main .Our_Team_S_img p {
+        width: 26%;
+        left: 74%;
+        margin-top: -57px;
+    }
+    .Team_2 .Our_Team_S_img p {
+        width: 26%;
+        left: 57%;
+        margin-top: -57px;
+    }
+    #container_bar_2 img {
+        position: absolute;
+        top: -80px;
+        left: -120px;
+        display: none;
+    }
+    #container_bar_2 span {
+        font-family: 'YekanBakh_Regural';
+        font-size: 15px;
+        position: absolute;
+        top: -70px;
+        left: -50px;
+        display: none;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 375px) {
+    .Slogan_Inner header span,
+    .Slogan_Inner header h1,
+    .Slogan_Inner header,
+    .Team_Ma header span,
+    .Team_Ma header h1,
+    .Process_Inner header span,
+    .Process_Inner header h1,
+    .partners_Inner header span,
+    .partners_Inner header h1,
+    .statistics header span,
+    .statistics header h1,
+    .About_Us_inner header span,
+    .About_Us_inner header h1 {
+        font-size: 25px;
+    }
+    .Slogan_Inner header {
+        margin-top: 10px;
+    }
+    #container_bar_2 img {
+        position: absolute;
+        top: -80px;
+        left: -125px;
+        display: none;
+    }
+    #container_bar_2 span {
+        font-family: 'YekanBakh_Regural';
+        font-size: 15px;
+        position: absolute;
+        top: -65px;
+        left: -75px;
+        display: none;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 400px) {
+    .Team_Main .Our_Team_S_img p {
+        width: 27%;
+    }
+    .Team_2 .Our_Team_S_img p {
+        width: 27%;
+    }
+    #container_bar_2 img {
+        position: absolute;
+        top: -80px;
+        left: -125px;
+        display: none;
+    }
+    #container_bar_2 span {
+        font-family: 'YekanBakh_Regural';
+        font-size: 15px;
+        position: absolute;
+        top: -65px;
+        left: -75px;
+        display: none;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 536px) {
+    .Slogan_Inner header span,
+    .Slogan_Inner header h1,
+    .Slogan_Inner header,
+    .Team_Ma header span,
+    .Team_Ma header h1,
+    .Process_Inner header span,
+    .Process_Inner header h1,
+    .partners_Inner header span,
+    .partners_Inner header h1,
+    .statistics header span,
+    .statistics header h1,
+    .About_Us_inner header span,
+    .About_Us_inner header h1 {
+        font-size: 30px;
+    }
+    .Slogan_Inner header {
+        margin-top: 10px;
+    }
+    .Team_Main .Our_Team_S_img p {
+        width: 27%;
+        left: 76%;
+    }
+    .Team_2 .Our_Team_S_img p {
+        width: 27%;
+        left: 57%;
+    }
+    #container_bar_2 img {
+        position: absolute;
+        top: -80px;
+        left: -125px;
+        display: none;
+    }
+    #container_bar_2 span {
+        font-family: 'YekanBakh_Regural';
+        font-size: 15px;
+        position: absolute;
+        top: -80px;
+        left: -75px;
+        display: none;
+    }
+}
